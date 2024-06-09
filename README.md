@@ -137,17 +137,18 @@ Tasks;
 
 # INTRODUCTION
 
-India's startup ecosystem has witnessed tremendous growth over the past decade, with burgeoning innovation across various sectors. The influx of funding from domestic and international investors has played a pivotal role in driving this growth. This article delves into a data science project that analyzes the Indian startup funding ecosystem, uncovering trends, patterns, and insights that shed light on the dynamics of this vibrant landscape. This information will be vital to stakeholders to make data-driven decisions in entering this business ecosystem.
+India's startup ecosystem has experienced remarkable growth over the past decade, showcasing significant innovation across various sectors. This expansion has been fueled by substantial investments from both domestic and international investors. 
 
-When the project was assigned to us, we had to understand the data we were working with very well to be able to tackle it head on. Datasets had to be extracted from different sources. We understood that the data would be uneven thus, cleaning would be quite challenging. We initially thought of merging the dataset and cleaning it all together to be able to perform our EDA (Exploratory Data Analysis).
+In this article, we present a data science project that analyzes the Indian startup funding landscape, revealing trends, patterns, and insights that illuminate the dynamics of this vibrant ecosystem. These insights will be crucial for stakeholders looking to make data-driven decisions about entering this market.
 
-However,after taking time to assess the various datasets, we realized how messy it was. To achieve data integrity, the team decided on cleaning the year group individually and concatenating it afterwards so as to maintain the quality of the data.  
+When we embarked on this project, a thorough understanding of the data was essential to effectively tackle the analysis. We sourced datasets from multiple origins, anticipating that they would be uneven and require extensive cleaning. Initially, we considered merging and cleaning the datasets simultaneously before performing Exploratory Data Analysis (EDA). 
+
+However, upon closer examination, we discovered the extent of the data's complexity and messiness. To ensure data integrity, we decided to clean the datasets year by year and concatenate them afterward, thereby maintaining the data's quality and reliability.
+
 
 # Project Structure
 
-The team followed a CRISP-DM (Cross-Industry Standard Process for Data Mining) approach to work on this project.
-This is a widely used methodology that provides a structured approach to planning and executing data mining/science projects to ensure that data mining/science projects are systematic and that the results are reliable and actionable.
-
+The team employed the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology for this project. This well-established framework offers a systematic approach to planning and executing data mining and science projects, ensuring that the process is methodical and the outcomes are reliable and actionable.
 Following the CRISP-DM approach, the following steps were taken:
 
 1. Business Understanding
@@ -161,7 +162,7 @@ Following the CRISP-DM approach, the following steps were taken:
 
 # 1. Business Understanding
 
-The very first step is very crucial as it sets the direction of the entire project. The team came up with some ideas as to the insights we look forward to uncovering from our datasets. These initial ideas formed our business objectives.
+The initial step is critical as it sets the course for the entire project. The team generated several ideas regarding the insights we aim to uncover from our datasets. These preliminary ideas shaped our business objectives.
 
 The business objectives team are:
 
@@ -224,7 +225,7 @@ We begun this process began by extracting the datasets from its various sources.
 | Company/Brand | Name of company/start-up | Object |
 | Founded | Year Start-up was founded | Int |
 | Sector | Sector of service | Object |
-| What it Does/About| Description about the company | Object |
+| What it Does/About| Description of the company | Object |
 | Founders | Founders of the company | Object|
 | Investor | Investors | Object |
 | Amount($) | Raised Amount | Float|
@@ -240,7 +241,7 @@ The data dictionary was created to support our project by clarifying data defini
 
 Data preparation is a critical step in the data science process, involving the transformation of raw data into a clean and usable format for analysis.
 
-To begin the data preparation process we imported the requisite libraries into our python notebook.
+We imported the requisite libraries into our python notebook to begin the data preparation process.
  
 Some of these libraries are:
 
