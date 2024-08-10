@@ -185,7 +185,7 @@ These key business questions include:
 
 3. At what stage do businesses raise the most money across sectors?
 
-4. Which are the top 10 locations that received funding?
+4. Which are the top 5 locations that received funding?
 
 5. Are there specific cities that have become hubs for certain industries or types of startups?
 
