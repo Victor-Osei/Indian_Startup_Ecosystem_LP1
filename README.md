@@ -97,14 +97,12 @@ Tasks;
     3. At what stage do businesses raise the most money across sectors?
        We shall examine funding distribution across different stages (e.g., seed, early, growth) to understand where investors are most likely to commit significant capital.
 
-    4. Which are the top 10 locations that received funding?
-       We will analyze funding distribution across various cities to determine if certain locations are emerging as major startup hubs.
+    4. Which are the top 5 locations that received funding?
 
-    5. Are there specific cities that have become hubs for certain industries or types of startups?
-        We will identify which cities(headquarters) are becoming specialized hubs for particular sectors or types of startups.
+    5. Which Year had the most Investors?
+        
 
-    6. Who are the top 3 investors in the top 5 sectors?
-       We will identify key investors and their sector preferences to gauge influential players and sector-specific investment trends.
+    6. Who are the top 3 investors investing in start ups?
 
 ## Evaluation Metrics:
 
